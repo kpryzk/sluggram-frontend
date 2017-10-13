@@ -7,7 +7,9 @@
     "build": "webpack",
     "watch": "webpack-dev-server --inline --hot",
     "test": "jest",
-    "test:watch": "jest --watchAll"
+    "test:watch": "jest --watchAll",
+    "heroku-postbuild": "webpack -p --progress"
+
   },
   "jest": {
     "globals": {
